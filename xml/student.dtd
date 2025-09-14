@@ -1,0 +1,12 @@
+<!-- The root element 'students' contains one or more 'student' elements -->
+<!ELEMENT students (student+)>
+<!-- A 'student' contains all listed sub-elements in order -->
+<!ELEMENT student (name, id, email, phone, yearStatus, gpa, major, minor, enrollmentStatus, advisor, initialEnrollment, graduationDate)>
+<!-- 'name' contains first, optional middle, last, and optional preferred name -->
+<!ELEMENT name (first, middle?, last, preferred?)>
+<!ELEMENT first (#PCDATA)>  <!-- First name is plain text -->
+<!ELEMENT middle (#PCDATA)>  <!-- Middle name is optional plain text -->
+<!ELEMENT last (#PCDATA)> <!-- Last name is plain text -->
+<!ELEMENT preferred (#PCDATA)> <!-- Preferred name is optional plain text -->
+
+<!ELEMENT  (#PCDATA)>  <!--   -->
