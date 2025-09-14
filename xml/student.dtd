@@ -9,4 +9,14 @@
 <!ELEMENT last (#PCDATA)> <!-- Last name is plain text -->
 <!ELEMENT preferred (#PCDATA)> <!-- Preferred name is optional plain text -->
 
-<!ELEMENT  (#PCDATA)>  <!--   -->
+<!ELEMENT id (#PCDATA)>  <!-- Student ID -->
+<!ELEMENT email (#PCDATA)>  <!-- Email address -->
+<!ELEMENT phone (#PCDATA)>  <!-- Phone number -->
+<!ELEMENT yearStatus (#PCDATA)>  <!-- Academic year status -->
+<!ELEMENT gpa (#PCDATA)>  <!-- GPA -->
+<!ELEMENT major (#PCDATA)>  <!-- Major field -->
+<!ELEMENT minor (#PCDATA)>  <!-- Minor field -->
+<!ELEMENT enrollmentStatus (#PCDATA)>  <!-- Enrollment status -->
+<!ELEMENT advisor (#PCDATA)>  <!-- Advisor name -->
+<!ELEMENT initialEnrollment (#PCDATA)>  <!-- Enrollment date -->
+<!ELEMENT graduationDate (#PCDATA)>  <!-- Graduation date -->
