@@ -1,0 +1,18 @@
+student {
+  display: block;
+  margin: lem 0;
+  padding: lem;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+name, first, middle, last, preferred {
+  display: block;
+  font-weight: bold;
+  margin-left: lem;
+}
+
+id, email, phone, yearStatus, gpa, major, minor, enrollmentStatus, advisor, initialEnrollment, graduationDate {
+  display: block;
+  margin-left: lem;
+}
