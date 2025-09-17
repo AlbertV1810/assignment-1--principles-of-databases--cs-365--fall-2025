@@ -6,6 +6,14 @@ student {
   background-color: #f9f9f9;
 }
 
+student::before {
+  content: "Student Entry";
+  display: block;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 1em;
+}
+
 name, first, middle, last, preferred {
   display: block;
   font-weight: bold;
