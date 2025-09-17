@@ -7,11 +7,10 @@ student {
 }
 
 student::before {
-  content: "Student Entry";
+  content: "Status: " attr(status);
   display: block;
-  font-size: 20px;
-  color: red;
-  margin-bottom: 1em;
+  font-style: italic;
+  color: #555;
 }
 
 name, first, middle, last, preferred {
