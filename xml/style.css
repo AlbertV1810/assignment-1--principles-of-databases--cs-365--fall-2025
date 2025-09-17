@@ -1,7 +1,7 @@
 student {
   display: block;
-  margin: lem 0;
-  padding: lem;
+  margin: 1em 0;
+  padding: 1em;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
 }
@@ -9,10 +9,10 @@ student {
 name, first, middle, last, preferred {
   display: block;
   font-weight: bold;
-  margin-left: lem;
+  margin-left: 1em;
 }
 
 id, email, phone, yearStatus, gpa, major, minor, enrollmentStatus, advisor, initialEnrollment, graduationDate {
   display: block;
-  margin-left: lem;
+  margin-left: 1em;
 }
