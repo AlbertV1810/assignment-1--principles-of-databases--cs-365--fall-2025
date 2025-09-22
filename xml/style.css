@@ -6,12 +6,12 @@ student {
   background-color: #f9f9f9;
 }
 
-student::before {
+/*student::before {
   content: "Status: " attr(status);
   display: block;
   font-style: italic;
   color: #555;
-}
+} */
 
 name, first, middle, last, preferred {
   display: block;
