@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="style.css"?>
 
 <students>
-  <student>
+  <student status ="full-time">
     <name>
       <first>Gordon</first>
       <middle>Matthew</middle>
