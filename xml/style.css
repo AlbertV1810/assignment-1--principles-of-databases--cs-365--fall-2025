@@ -16,7 +16,7 @@ student {
 name, first, middle, last, preferred {
   display: block;
   font-weight: bold;
-  margin-left: 1em;
+
 }
 
 id, email, phone, yearStatus, gpa, major, minor, enrollmentStatus, advisor, initialEnrollment, graduationDate {
