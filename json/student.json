@@ -1,21 +1,92 @@
 {
-  "student": {
-    "name": {
-      "first": "Gordon",
-      "middle": "Matthew",
-      "last": "Sumner",
-      "preferred": "Sting"
+  "students": [
+    {
+      "name": {
+        "first": "Gordon",
+        "middle": "Matthew",
+        "last": "Sumner",
+        "preferred": "Sting"
+      },
+      "id": "1234567",
+      "email": "sting@thepolice.com",
+      "phone": "212.123.4567",
+      "yearStatus": "first year",
+      "gpa": "4.0",
+      "major": "Music",
+      "minor": "English",
+      "enrollmentStatus": "full-time",
+      "advisor": "Andy Summers",
+      "initialEnrollment": "1969-08-25",
+      "graduationDate": "1973-05-01"
     },
-    "id": "1234567",
-    "email": "sting@thepolice.com",
-    "phone": "212.123.4567",
-    "yearStatus": "first year",
-    "gpa": "4.0",
-    "major": "Music",
-    "minor": "English",
-    "enrollmentStatus": "full-time",
-    "advisor": "Andy Summers",
-    "initialEnrollment": "1969-08-25",
-    "graduationDate": "1973-05-01"
-  }
+    {
+      "name": {
+        "first": "Kim",
+        "last": "Thayil"
+      },
+      "id": "4567890",
+      "email": "kim@soundgarden.com",
+      "phone": "206.123.4567",
+      "yearStatus": "second year",
+      "gpa": "3.0",
+      "major": "Philosophy",
+      "minor": "Music",
+      "enrollmentStatus": "full-time",
+      "advisor": "Chris Cornell",
+      "initialEnrollment": "1978-08-25",
+      "graduationDate": "1982-05-01"
+    },
+    {
+      "name": {
+        "first": "Saul",
+        "last": "Hudson",
+        "preferred": "Slash"
+      },
+      "id": "8302438",
+      "email": "slash@gnr.com",
+      "phone": "213.456.8392",
+      "yearStatus": "fourth year",
+      "gpa": "2.0",
+      "major": "Music",
+      "minor": "Criminal Justice",
+      "enrollmentStatus": "part-time",
+      "advisor": "Axl Rose",
+      "initialEnrollment": "1983-08-25",
+      "graduationDate": "1987-05-01"
+    },
+    {
+      "name": {
+        "first": "Emily",
+        "last": "Kokal"
+      },
+      "id": "2983928",
+      "email": "emily@warpaint.com",
+      "phone": "213.123.7654",
+      "yearStatus": "third year",
+      "gpa": "3.8",
+      "major": "Political Science",
+      "minor": "Law",
+      "enrollmentStatus": "full-time",
+      "advisor": "Jenny Lee Lindberg",
+      "initialEnrollment": "1998-08-25",
+      "graduationDate": "2002-05-01"
+    },
+    {
+      "name": {
+        "first": "Mike",
+        "last": "Inez"
+      },
+      "id": "7645726",
+      "email": "mike@aic.com",
+      "phone": "213.444.3323",
+      "yearStatus": "second year",
+      "gpa": "4.0",
+      "major": "Business Management",
+      "minor": "Math",
+      "enrollmentStatus": "full-time",
+      "advisor": "Jerry Cantrell",
+      "initialEnrollment": "1984-08-25",
+      "graduationDate": "1988-05-01"
+    }
+  ]
 }
