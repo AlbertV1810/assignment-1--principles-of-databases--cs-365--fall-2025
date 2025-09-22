@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="style.css"?>
 
 <students>
-  <student status ="full-time">
+  <student status="full-time">
     <name>
       <first>Gordon</first>
       <middle>Matthew</middle>
@@ -22,7 +22,7 @@
     <initialEnrollment>1969-08-25</initialEnrollment>
     <graduationDate>1973-05-01</graduationDate>
   </student>
-  <student>
+  <student status="full-time">
     <name>
       <first>Kim</first>
       <last>Thayil</last>
@@ -39,7 +39,7 @@
     <initialEnrollment>1978-08-25</initialEnrollment>
     <graduationDate>1982-05-01</graduationDate>
   </student>
-  <student>
+  <student status="part-time">
     <name>
       <first>Saul</first>
       <last>Hudson</last>
@@ -57,7 +57,7 @@
     <initialEnrollment>1983-08-25</initialEnrollment>
     <graduationDate>1987-05-01</graduationDate>
   </student>
-  <student>
+  <student status="full-time">
     <name>
       <first>Emily</first>
       <last>Kokal</last>
@@ -74,7 +74,7 @@
     <initialEnrollment>1998-08-25</initialEnrollment>
     <graduationDate>2002-05-01</graduationDate>
   </student>
-  <student>
+  <student status="full-time">
     <name>
       <first>Mike</first>
       <last>Inez</last>
