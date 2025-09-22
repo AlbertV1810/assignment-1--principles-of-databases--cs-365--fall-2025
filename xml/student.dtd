@@ -1,5 +1,7 @@
 <!-- The root element 'students' contains one or more 'student' elements -->
 <!ELEMENT students (student+)>
+<!-- Declare the 'status' attribute for the student element -->
+<!ATTLIST student status CDATA #REQUIRED>
 <!-- A 'student' contains all listed sub-elements in order -->
 <!ELEMENT student (name, id, email, phone, yearStatus, gpa, major, minor, enrollmentStatus, advisor, initialEnrollment, graduationDate)>
 <!-- 'name' contains first, optional middle, last, and optional preferred name -->
